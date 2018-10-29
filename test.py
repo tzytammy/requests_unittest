@@ -26,3 +26,9 @@ def print_info(name, *, gender, city='Beijing', age):
 
 print_info('Bob', gender='male', age=20)
 print_info('Lisa', gender='female', city='Shanghai', age=18)
+
+x=int(input("一个数字"))
+if x % 2:
+    print ("x不可以被2整除")
+else:
+    print("x可以被2整除")
