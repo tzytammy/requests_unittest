@@ -4,7 +4,6 @@
 测试基类
 
 """
-import os
 import unittest
 
 from app.utils import RequestUtil

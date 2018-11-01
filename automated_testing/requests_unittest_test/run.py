@@ -18,7 +18,7 @@ from app.utils.EmailUtil import EmailUtil
 from app.utils import Config
 
 # 将测试框架根目录添加到Python的系统搜索路径中
-sys.path.append("E:\Python\auto_testing\auto_test_framework\requests_unittest_test")
+sys.path.append ("E:\software\python3.6\CRM\automated_testing\requests_unittest_test")
 
 
 def send_email(is_send_email, content):

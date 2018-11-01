@@ -39,7 +39,7 @@ class TestLoginDemo(Base):
 		pass
 
 	@data(
-		['陈琳', 'jiubugaosuni28']
+		['陈琳', 'jiubugaosuni30']
 	)
 	@unpack
 	def test_login_api(self, account, password):
