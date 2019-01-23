@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.support.select import Select
 
 driver=webdriver.Chrome()
-driver.get("http://10.64.83.133/txws_crm/admin/login.html")
+driver.get("http://10.64.83.134/txws_crm/admin/login.html")
 
 driver.find_element_by_id("account").send_keys("陈琳")
 driver.find_element_by_id("password").send_keys("123456")
